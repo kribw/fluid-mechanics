@@ -1,0 +1,229 @@
+% Article type supporting font formatting
+\documentclass[a4paper,11pt]{extarticle}
+
+% Define .tex file encoding
+\usepackage[utf8]{inputenc}
+
+% Norwegian language support
+%\usepackage[norsk]{babel}
+
+% Sample text
+\usepackage{lipsum}  
+
+% Margin defining package
+\usepackage{geometry}
+\geometry{a4paper,margin=2cm}
+
+% Better bibliography 
+\usepackage[round]{natbib}
+
+% For use of graphics in document
+\usepackage{graphicx}
+
+% Allows \begin{figure}[H]
+\usepackage{float}
+
+% For use of subfigures in document
+\usepackage{subcaption}
+
+% Allows easy writing of algorithms
+\usepackage[ruled]{algorithm2e}
+
+% Math related tools and functions
+\usepackage{mathtools}
+
+% Allows math in tex file 
+\usepackage{amsmath}
+
+% Allows math symbols in tex file
+\usepackage{amssymb}
+
+% Allows use of physics shortcut functions
+%\usepackage{physics}
+
+% For quotations
+\usepackage{csquotes}
+
+% Allows multi-line comments in tex file
+\usepackage{verbatim}
+
+% Verbatim env with LaTeX commands
+\usepackage{alltt}
+
+% Allows more control over tables
+\usepackage{tabulary}
+
+% Ads ul which allows line breaks while underlining text.
+\usepackage{soul}
+
+% Adds labeling list to the report
+\usepackage{scrextend}
+\addtokomafont{labelinglabel}{\ttfamily}
+
+% Allows number referencing the last page, used in footer
+\usepackage{lastpage}
+
+% No indentation for the paragraphs, set distance between paragraphs
+\usepackage{parskip}[skip=6pt]
+
+% Adds "Appendix" before numbering for sections in appendix, use appendices env
+\usepackage[title,toc,titletoc]{appendix}
+
+% Change caption size and style
+\usepackage[font=footnotesize,labelsep=period]{caption}
+
+% Makes matrices look square-ish
+\renewcommand*{\arraystretch}{1.5}
+
+% Change date style
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{-}
+
+% Necessary for defining colours
+\usepackage{xcolor}
+\definecolor{linkgreen}{rgb}{0,.5,0}
+\definecolor{linkblue}{rgb}{0,0.25,1}
+\definecolor{linkred}{rgb}{.5,0,0}
+\definecolor{blue}{rgb}{.13,.13,1}
+\definecolor{green}{rgb}{0,.5,0}
+\definecolor{red}{rgb}{.9,0,0}
+
+% Hyperlinks in document
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,     % True for colored links
+  linktoc=all,         % True for table of contents links
+  linkcolor=linkblue,  % Colour for links
+  urlcolor=linkgreen,  % Colour for URLs
+  citecolor=linkred    % Colour for citations
+}
+
+% Listing package for code examples
+\usepackage{listings}         
+\lstset{
+  language=C++,                       % Set language to C++
+  showspaces=false,                   % Don't show space chars
+  showtabs=false,                     % Don't show tab chars
+  breaklines=true,                    % Break long lines of code
+  showstringspaces=false,             % Don't show spaces in strings
+  breakatwhitespace=true,             % Break at white space only
+  commentstyle=\color{green},         % Set colour for comments
+  keywordstyle=\color{blue},          % Set colours for keywords
+  stringstyle=\color{red},            % Set colour for strings
+  basicstyle=\footnotesize\ttfamily,  % Set basic style
+  tabsize=4                           % Set tabsize
+}
+
+% Allows editing of section headers
+\usepackage{titlesec}
+\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\subsection}{\normalsize\itshape\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries}
+
+% Change look and feel of abstract
+\usepackage{abstract}
+\setlength{\absleftindent}{0mm}
+\setlength{\absrightindent}{0mm}
+\renewcommand*\abstractname{\flushleft\normalsize\textbf{Abstract}\hfill}
+
+% Allows editing of header and footer data
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \rfoot[R]{\footnotesize Page \thepage\ of \pageref*{LastPage}}
+}
+\pagestyle{fancy}
+\fancyhf{}
+\chead{\footnotesize Kristoffer Berg Wilhelmsen, Project in Fluid Mechanics, UiT Narvik 2022}
+\rfoot{\footnotesize Page \thepage\ of \pageref*{LastPage}}
+\setlength{\headheight}{20pt}
+\setlength{\footskip}{20pt}
+
+% Referencing, last for compatibility reasons
+\usepackage[noabbrev,nameinlink]{cleveref}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Title, Author, and Date      %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Fluid Mechanics}
+\author{Kristoffer Berg Wilhelmsen}
+\date{\parbox{\linewidth}{\centering
+    \textit{\small UiT - The Arctic University of Norway, P.O. Box 385, N-8505 Narvik, Norway}\endgraf\bigskip
+    \small Submitted \today
+}}
+\providecommand{\keywords}[1]{\flushleft\textit{\small{Keywords:}} #1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%           Start document          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Create the main title section   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Abstract for the report      %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent\rule{\linewidth}{.5pt}
+\begin{abstract}
+  TL;DR
+
+  \keywords{\small{Fluid Mechanics}; \small{Godot}; \small{Flow-3d}}
+\end{abstract}
+\rule{\linewidth}{.5pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  The main content of the report  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+Write an introduction here!
+
+The objectives of the work are to perform post-processing on data obtained from a simulation. 
+
+\lipsum[2-4]
+
+\section{Material \& Methods}
+Methods!
+
+\section{Results \& Discussion}
+What results did we get!?
+
+\section{Conclusions}
+What is the conclusion?
+
+\section{Acknowledgements}
+Thanks to my class for the carry!
+
+\section{References}
+\begingroup
+\def\section*#1{}
+\bibliographystyle{apalike}
+\bibliography{References}
+\endgroup
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Appendix for the report      %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% New Page for appendix
+\pagebreak
+\begin{appendices}
+
+  % Reset counter for figures, equations, and tables.
+  \setcounter{figure}{0}
+  \setcounter{table}{0}
+  \setcounter{equation}{0}
+
+  % Set numbering for figures, equations and tables A.1, A.2, etc.
+  \renewcommand\thefigure{\thesection.\arabic{figure}}
+  \renewcommand\thetable{\thesection.\arabic{table}}
+  \renewcommand\theequation{\thesection.\arabic{equation}}
+
+\end{appendices}
+
+\end{document}
