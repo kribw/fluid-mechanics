@@ -16,9 +16,11 @@ def gen_random():
 
 def gen_rgb():
     # print(image[1:100])
-    image[:300] = (255, 0, 0)
-    image[300:600] = (0, 255, 0)
-    image[600:] = (0, 0, 255)
+    image[:200] = (255, 0, 0)
+    image[200:400] = (255, 255, 0)
+    image[400:600] = (255, 255, 255)
+    image[600:800] = (0, 255, 255)
+    image[800:] = (0, 0, 255)
 
     imageio.imwrite('output.png', image)
 
