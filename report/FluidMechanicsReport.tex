@@ -180,21 +180,30 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
-Write an introduction here!
+The AW101, domestically known as the Search \& Rescue (SAR) Queen in Norway, is a helicopter specialized for use in rescue missions \citep{ProjectDescription}. It is a replacement for Norway's previous rescue helicopter, known as Sea King. As the SAR Queen has been built to fly long distances, withstand the arctic climate, strong winds and rough seas, it is essentially "The Terminator" of rescue helicopters.
 
-The objectives of the work are to perform post-processing on data obtained from a simulation.
+Despite the SAR Queen being a phenomenal helicopter for its intended area of use, it unfortunately also has its downsides. The downdraft created by the helicopter is much more significant than its predecessor's, and can be a potential danger for humans in proximity.
 
-\lipsum[2-4]
+The objective of the work is to analyze the given flow problem. A pre-defined numerical simulation performed by professor Per-Arne Sundsbø using recorded sensor data from a real landing has been provided, along with the 3D models used in the simulation. By applying modern visualization techniques, the analysis will look to get a better understanding of the flow problem.
+
+%The objectives of the work are to perform post-processing on data obtained from a simulation.
+
+% \lipsum[2-4]
 
 \section{Material \& Methods}
-During the project work and while writing the report, various software has been used. Each piece of software, as well as its purpose, is described in this section.
-
-\subsection{Godot}
-Godot is a game engine which as the name suggests, is primarily used for game development.
+Various pieces of software have been used in order to perform the analysis of the given problem. This section describes what software was used and how.
 
 \subsection{Blender}
-Blender is a free and open source 3D creation suite that was first publicly released in 1998 \citep{blender:birthday}.
+Blender is a free and open source software used to create and animate 3D models \citep{blender}. To be able to use the supplied 3D models, their format must be compatible with the visualization we intend on using. In this case we will use Godot to create visualizations, which does not currently support the supplied \textit{stl} format. Godot's preferred format for 3D models is \textit{glTF} (.glb file extension). Converting the models can easily be done by importing them to Blender, and exporting them to the desired format.
+
+\subsection{Python}
+To
+
+\subsection{Godot}
+Godot is a game engine which as the name suggests, is primarily used for game development. However, we can also use Godot to create animations.
+
 \subsection{OBS Studio}
+Deez
 
 \section{Results \& Discussion}
 What results did we get!?
@@ -203,7 +212,7 @@ What results did we get!?
 What is the conclusion?
 
 \section{Acknowledgements}
-Thanks to my class for the carry!
+Special thanks to my brother Kenneth Wilhelmsen for feedback, advice and inspiration on possible ways to approach the task. I would also like to thank professor Per-Arne Sundsbø for providing the Flow3D simulation that was used in the analysis.
 
 \section{References}
 \begingroup

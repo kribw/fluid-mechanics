@@ -1,9 +1,16 @@
 \begin{thebibliography}{}
 
-\bibitem[{Ton Roosendaal}, 2019]{blender:birthday}
-{Ton Roosendaal} (2019).
-\newblock Blender’s 25th birthday!
-\newblock \url{https://www.blender.org/press/blenders-25th-birthday/}.
+\bibitem[Blender, 2022]{blender}
+Blender (2022).
+\newblock Blender 3.4.
+\newblock \url{https://www.blender.org/}.
 \newblock Accesed on 16.11.2022.
+
+\bibitem[Sundsbø, 2022]{ProjectDescription}
+Sundsbø, P.-A. (2022).
+\newblock Visualization of downdraft from aw101 sar queen helicopter.
+\newblock
+  \url{https://uit.instructure.com/courses/27052/files/2085941?module_item_id=699902}.
+\newblock Accesed on 11.12.2022.
 
 \end{thebibliography}
