@@ -135,7 +135,7 @@ def create_texture():
         set_index(float(words[0]), float(words[1]), float(words[2]))
 
     fill_empty_values()
-    imageio.imwrite(f"animations/textures/{file_name}.png", image)
+    imageio.imwrite(f"animations/textures/{file_name[:-4]}.png", image)
 
 
 path = "G:\\Fluid Mechanics\\28.11.2022\\timesteps\\parsed\\"
