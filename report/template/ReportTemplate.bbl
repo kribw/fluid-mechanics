@@ -1,0 +1,31 @@
+\begin{thebibliography}{}
+
+\bibitem[D.~Tabler et~al., 1990]{Tabler1990}
+D.~Tabler, R., Pomeroy, J., and Santana, B. (1990).
+\newblock {\em Drifting snow}, pages 95--145.
+\newblock American Society of Civil Engineers.
+
+\bibitem[{Flow Science Inc}, 2010]{FlowScienceInc2010}
+{Flow Science Inc} (2010).
+\newblock Flow 3d.
+\newblock \url{http://www.flow3d.com/apps/index.html}.
+\newblock Accesed on 2010-10-21.
+
+\bibitem[SINTEF, 2010]{SINTEF2010}
+SINTEF (2010).
+\newblock The centre for renewable energy.
+\newblock \url{http://www.sintef.no/Home/Environment/fornybar-energi}.
+\newblock Accesed on 2010-10-25.
+
+\bibitem[Sundsbø, 1997]{Sundsbo1997}
+Sundsbø, P.-A. (1997).
+\newblock {\em Numerical modelling and simulation of snow drift: application to
+  snow engineering}.
+\newblock PhD thesis.
+\newblock ISBN 82-471-0047-9.
+
+\bibitem[Sundsbø and Bang, 1998]{Sundsbo1998}
+Sundsbø, P.-A. and Bang, B. (1998).
+\newblock {\em International Snow Science Workshop}, page 279–283.
+
+\end{thebibliography}

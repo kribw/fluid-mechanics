@@ -6,11 +6,87 @@ Blender (2022).
 \newblock \url{https://www.blender.org/}.
 \newblock Accesed on 16.11.2022.
 
+\bibitem[{FLOW-3D}, 2022a]{Flow3D}
+{FLOW-3D} (2022a).
+\newblock {FLOW-3D}.
+\newblock \url{https://www.flow3d.com/}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[{FLOW-3D}, 2022b]{flowsight}
+{FLOW-3D} (2022b).
+\newblock {FLOW-3D: POST}.
+\newblock \url{https://www.flow3d.com/products/flow-3d-post/}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[Godot, 2022a]{godot:shader}
+Godot (2022a).
+\newblock {Godot API: Shading language}.
+\newblock
+  \url{https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[Godot, 2022b]{godot:timer}
+Godot (2022b).
+\newblock {Godot API: Timer}.
+\newblock
+  \url{https://docs.godotengine.org/en/stable/classes/class_timer.html}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[Godot, 2022c]{godot:tween}
+Godot (2022c).
+\newblock {Godot API: Tween}.
+\newblock
+  \url{https://docs.godotengine.org/en/stable/classes/class_tween.html}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[Godot, 2022d]{godot}
+Godot (2022d).
+\newblock Godot website.
+\newblock \url{https://godotengine.org/en}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[imageio, 2022]{imageio}
+imageio (2022).
+\newblock imageio documentation.
+\newblock \url{https://imageio.readthedocs.io/en/stable/}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[Jarslett, 2021]{AW101}
+Jarslett, Y. (2021).
+\newblock {AW101}.
+\newblock \url{https://snl.no/AW101/}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[NumPy, 2022]{numpy}
+NumPy (2022).
+\newblock {NumPy website}.
+\newblock \url{https://numpy.org/}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[OBS, 2022]{obs}
+OBS (2022).
+\newblock {OBS Studio}.
+\newblock \url{https://obsproject.com/}.
+\newblock Accesed on 18.12.2022.
+
+\bibitem[Python, 2022]{Python}
+Python (2022).
+\newblock Python programming language.
+\newblock \url{https://www.python.org/}.
+\newblock Accesed on 18.12.2022.
+
 \bibitem[Sundsbø, 2022]{ProjectDescription}
 Sundsbø, P.-A. (2022).
-\newblock Visualization of downdraft from aw101 sar queen helicopter.
+\newblock {Visualization of downdraft from AW101 SAR Queen helicopter}.
 \newblock
   \url{https://uit.instructure.com/courses/27052/files/2085941?module_item_id=699902}.
 \newblock Accesed on 11.12.2022.
+
+\bibitem[Toftaker and Kleven, 2020]{NRK:SarQueen}
+Toftaker, J. and Kleven, R. (2020).
+\newblock {Se den dramatiske landinga til Norges nye redningshelikopter}.
+\newblock
+  \url{https://www.nrk.no/trondelag/enormt-lufttrykk-fra-nye-redningshelikopter-skaper-trobbel-1.15203020}.
+\newblock Accesed on 19.12.2022.
 
 \end{thebibliography}

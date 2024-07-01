@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ReportTemplate.aux
+The style file: apalike.bst
+Database file #1: References.bib
+Warning--empty school in Sundsbo1997
+Warning--empty publisher in Sundsbo1998
+You've used 5 entries,
+            1935 wiz_defined-function locations,
+            505 strings with 4428 characters,
+and the built_in function-call counts, 1813 in all, are:
+= -- 186
+> -- 52
+< -- 6
++ -- 18
+- -- 16
+* -- 115
+:= -- 308
+add.period$ -- 17
+call.type$ -- 5
+change.case$ -- 30
+chr.to.int$ -- 5
+cite$ -- 7
+duplicate$ -- 88
+empty$ -- 121
+format.name$ -- 23
+if$ -- 374
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 30
+num.names$ -- 15
+pop$ -- 34
+preamble$ -- 1
+purify$ -- 33
+quote$ -- 0
+skip$ -- 81
+stack$ -- 0
+substring$ -- 103
+swap$ -- 29
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 26
+warning$ -- 2
+while$ -- 13
+width$ -- 0
+write$ -- 68
+(There were 2 warnings)
